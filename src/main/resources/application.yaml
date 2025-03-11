@@ -1,0 +1,6 @@
+logging:
+  pattern:
+    console:
+spring:
+  main:
+    banner-mode: off
