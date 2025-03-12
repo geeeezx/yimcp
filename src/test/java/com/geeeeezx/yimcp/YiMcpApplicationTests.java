@@ -1,4 +1,4 @@
-package com.geeeeezx.yi_mcp;
+package com.geeeeezx.yimcp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
