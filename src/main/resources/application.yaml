@@ -1,6 +1,16 @@
 logging:
   pattern:
     console:
+  file:
+    name: logs/application.log
+    path: logs
 spring:
   main:
     banner-mode: off
+  ai:
+    mcp:
+      server:
+        name: spring-ai-mcp-yimcp
+        version: 1.0.0
+        type: SYNC
+        stdio: true
