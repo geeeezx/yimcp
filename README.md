@@ -24,20 +24,12 @@ Yi Master MCP Server is a learning tutorial for Model Context Protocol implement
    cd yimaster-mcp
    ```
 
-2. Configure your Claude API credentials in `application.properties`:
-   ```
-   spring.ai.claude.api-key=your_api_key
-   ```
-
-3. Build the project:
+2. Build the project:
    ```
    ./mvnw clean install
    ```
 
-4. Run the application:
-   ```
-   ./mvnw spring-boot:run
-   ```
+
 
 ## Usage
 After starting the application, you can access the Yi Master divination service through:
@@ -63,7 +55,7 @@ This project serves as a tutorial for understanding Model Context Protocol:
 ## Documentation
 Detailed documentation is available in the `docs` directory:
 - API Reference
-- I Ching Basics
+- YI Basics
 - Hexagram Interpretations
 - MCP Implementation Guide
 
